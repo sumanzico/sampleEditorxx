@@ -1,0 +1,59 @@
+.App {
+  text-align: center;
+}
+
+.workspace {
+  display: block;
+  height: 100vh;
+  background-color: grey;
+  text-align: center;
+  width: 100%;
+}
+
+.workspace textarea {
+  white-space: normal;
+  text-align: justify;
+  -moz-text-align-last: center; /* Firefox 12+ */
+  text-align-last: center;
+}
+
+.sidebar {
+  width: 200px;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+.sidebar .sidebar-item {
+    margin: 5px;
+    padding: 10px;
+    background-color: #4787ed;
+    height: 30px;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 25px;
+    text-align: center
+}
+
+.sidebar-title {
+  text-align: center;
+  margin-top: -9px;
+}
+
+.workspace-title {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.app {
+  display: flex;
+  flex: 1;
+  padding: 20px;
+}
+
+.title {
+  text-align: center;
+  font-weight: bold;
+  font-size: 30px
+}
